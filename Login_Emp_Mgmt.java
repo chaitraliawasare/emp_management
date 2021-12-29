@@ -6,7 +6,7 @@ import org.openqa.selenium.remote.server.handler.SendKeys;
 public class Login_Emp_Mgmt {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\PoC\\Chrome_Driver_96\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
 		WebDriver driver = new ChromeDriver();
 		//driver.navigate().to("http://3.108.238.59:8080/admin/logon.html");
 		driver.navigate().to("http://13.233.15.229:8080/login");	
